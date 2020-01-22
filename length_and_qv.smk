@@ -6,10 +6,16 @@ import pysam
 #
 # INPUTS, change as needed
 #
-bams = { "ccs":"../alns/results/hg38_ccs.bam",
-		"sqII.clr":"../alns/results/hg38_HG002.CLR.SQII.bam",
-		"rel3.ont": "../alns/results/hg38_all.ont.bam"}
-fai = "~/assemblies/hg38/ucsc.hg38.no_alts.fasta.fai"
+
+# read in / set up inputs
+MAX_HP=100 # maximum detected homopolymer
+configfile: "config.yaml"
+bams = config["bams"]
+fai = config["fai"]
+
+print("bams to use")
+print(bams)
+
 
 #
 # wildcards
