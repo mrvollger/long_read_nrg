@@ -1,0 +1,9 @@
+ref: ~/assemblies/hg38/ucsc.hg38.no_alts.fasta
+fai: ~/assemblies/hg38/ucsc.hg38.no_alts.fasta.fai
+hp_pkl: results/homopolymers.bed.pkl
+bams:
+    ccs : ../alns/results/hg38_ccs.bam
+    sqII.clr : ../alns/results/hg38_HG002.CLR.SQII.bam
+
+
+
