@@ -18,6 +18,6 @@ Differences in homopolymer lengths were calculated by first tabulating the homop
 
 The datasets generated in the analyses above were then visualized using Matplotlib4 v2.1.2 and seaborn5 v0.10.0 in a Jupyter notebook called `plots_notebook.ipynb` to create Figure 3c,d. 
 
-These analyses were also used to calculate the read lengths, accuracies, and homopolymer profiles in Figure S1 with two exceptions: 1) the reads were aligned to the CHM13 genome assembly v0.6 from Ref. 6, available at the following URL: https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz, and 2) accuracy and homopolymer estimations were restricted to the X chromosome due to the high level of curation performed on this chromosome. 
+These analyses were also used to calculate the read lengths, accuracies, and homopolymer profiles in Figure S1 with two exceptions: 1) the reads were aligned to the CHM13 genome assembly v0.7 from Ref. 6, available at the following URL: https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz, and 2) accuracy and homopolymer estimations were restricted to the X chromosome due to the high level of curation performed on this chromosome. 
 
 
